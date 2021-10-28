@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = @efcinema,
+                caption = @efchannel2,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
